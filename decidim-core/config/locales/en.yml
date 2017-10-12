@@ -65,6 +65,8 @@ en:
           document_number: Document number
           postal_code: Postal code
         name: Example authorization
+      dummy_authorization_workflow:
+        name: Dummy authorization workflow
       errors:
         duplicate_authorization: A user is already authorized with the same data.
       foo_authorization:
@@ -79,7 +81,8 @@ en:
       current_participatory_processes: take a look at the current processes
       first_login:
         actions:
-          decidim/dummy_authorization_handler: Verify against the example authorization
+          decidim/dummy_authorization_handler: Verify against the example authorization handler
+          dummy_authorization_workflow: Verify against the example authorization workflow
         title: Verify your identity
         verify_with_these_options: 'These are the available options to verify your identity:'
       new:
