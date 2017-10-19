@@ -225,6 +225,10 @@ en:
         success: The report has been created successfully and it will be reviewed by an admin.
     shared:
       action_authorization_modal:
+        pending:
+          explanation: In order to perform this action, you need to be authorized with "%{authorization}", but your authorization is still in progress
+          resume: Check your "%{authorization}" authorization progress
+          title: Authorization is still in progress
         incomplete:
           cancel: Cancel
           explanation: 'Even though you''re currently authorized with "%{authorization}", we need you to reauthorize because we lack the following data:'
