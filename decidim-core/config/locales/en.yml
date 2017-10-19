@@ -61,7 +61,7 @@ en:
         related_photos: Related photos
     authorization_handlers:
       decidim/dummy_authorization_handler:
-        explanation: 'Get verified by introducing a document number ending with "X"'
+        explanation: Get verified by introducing a document number ending with "X"
         fields:
           document_number: Document number
           postal_code: Postal code
